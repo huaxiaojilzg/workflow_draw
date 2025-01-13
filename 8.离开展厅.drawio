@@ -10,39 +10,19 @@
         <mxCell id="97sA7i45QoaFlvlGvcoy-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="280" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="97sA7i45QoaFlvlGvcoy-2" target="97sA7i45QoaFlvlGvcoy-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="97sA7i45QoaFlvlGvcoy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="97sA7i45QoaFlvlGvcoy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="97sA7i45QoaFlvlGvcoy-2" value="开始节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="97sA7i45QoaFlvlGvcoy-4" target="97sA7i45QoaFlvlGvcoy-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-13" value="引导词" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97sA7i45QoaFlvlGvcoy-8">
-          <mxGeometry x="-0.0242" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="97sA7i45QoaFlvlGvcoy-4" target="97sA7i45QoaFlvlGvcoy-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-12" value="提示词" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="97sA7i45QoaFlvlGvcoy-9">
-          <mxGeometry x="0.0441" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-4" value="分支节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-6" value="分支节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="97sA7i45QoaFlvlGvcoy-7" value="分支节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="97sA7i45QoaFlvlGvcoy-10" value="type:引导词/提示词&lt;div&gt;role:主动/伴听&lt;/div&gt;&lt;div&gt;event:离开展区/展厅&lt;/div&gt;&lt;div&gt;x&lt;/div&gt;&lt;div&gt;x&lt;/div&gt;&lt;div&gt;x&lt;/div&gt;&lt;div&gt;x&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5" y="40" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="97sA7i45QoaFlvlGvcoy-15" value="分支节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
