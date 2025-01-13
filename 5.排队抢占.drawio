@@ -31,7 +31,7 @@
         </mxCell>
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-19" value="空闲中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mi7K5WG5HpJbJ7n9Mypf-10">
           <mxGeometry x="-0.5406" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mi7K5WG5HpJbJ7n9Mypf-3" target="Mi7K5WG5HpJbJ7n9Mypf-61">
@@ -41,7 +41,7 @@
         </mxCell>
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-14" value="无法使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mi7K5WG5HpJbJ7n9Mypf-12">
           <mxGeometry x="-0.7061" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-42" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-3" value="分支节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
