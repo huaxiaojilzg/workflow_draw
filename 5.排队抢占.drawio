@@ -144,16 +144,18 @@
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-33" value="分支节点" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="317" width="120" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="1wLSgyPM6Hem4SAJeHQH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mi7K5WG5HpJbJ7n9Mypf-39" target="1wLSgyPM6Hem4SAJeHQH-68">
+        <mxCell id="1wLSgyPM6Hem4SAJeHQH-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mi7K5WG5HpJbJ7n9Mypf-39" target="1wLSgyPM6Hem4SAJeHQH-80">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="370" as="targetPoint" />
+            <mxPoint x="850" y="266" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-39" value="消息节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="682" y="313" width="120" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="1wLSgyPM6Hem4SAJeHQH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mi7K5WG5HpJbJ7n9Mypf-41" target="1wLSgyPM6Hem4SAJeHQH-68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1wLSgyPM6Hem4SAJeHQH-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mi7K5WG5HpJbJ7n9Mypf-41" target="1wLSgyPM6Hem4SAJeHQH-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-41" value="消息节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="682" y="235" width="120" height="62" as="geometry" />
@@ -238,9 +240,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-82" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;伴听通知&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="871" y="275" width="40" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="1wLSgyPM6Hem4SAJeHQH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="1wLSgyPM6Hem4SAJeHQH-16" target="1wLSgyPM6Hem4SAJeHQH-31" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -306,17 +305,19 @@
             <mxPoint x="7" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1wLSgyPM6Hem4SAJeHQH-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1wLSgyPM6Hem4SAJeHQH-68" target="1wLSgyPM6Hem4SAJeHQH-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1wLSgyPM6Hem4SAJeHQH-68" value="消息节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="236" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1wLSgyPM6Hem4SAJeHQH-76" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;伴听通知&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="235" width="40" height="12" as="geometry" />
+        <mxCell id="1wLSgyPM6Hem4SAJeHQH-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1wLSgyPM6Hem4SAJeHQH-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="296" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1wLSgyPM6Hem4SAJeHQH-77" value="分支节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="317" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="1wLSgyPM6Hem4SAJeHQH-80" value="消息节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="236" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1wLSgyPM6Hem4SAJeHQH-81" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;伴听通知&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="235" width="40" height="12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
