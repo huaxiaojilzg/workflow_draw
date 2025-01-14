@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="yg1hlzOl9PT2WTQdHVyk">
-    <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1595" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
@@ -197,7 +197,7 @@
         <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Mi7K5WG5HpJbJ7n9Mypf-69" target="Mi7K5WG5HpJbJ7n9Mypf-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-75" value="VIP抢占" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mi7K5WG5HpJbJ7n9Mypf-73" vertex="1" connectable="0">
+        <mxCell id="Mi7K5WG5HpJbJ7n9Mypf-75" value="被抢占" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mi7K5WG5HpJbJ7n9Mypf-73" vertex="1" connectable="0">
           <mxGeometry x="-0.9017" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
