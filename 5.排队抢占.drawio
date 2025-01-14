@@ -315,8 +315,8 @@
         <mxCell id="1wLSgyPM6Hem4SAJeHQH-84" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;抢占通知&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="341" y="101" width="40" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="Ui3R6bgmoIIFnqbVHPds-1" value="type:引导词/提示词&lt;div&gt;role:主动/伴听&lt;/div&gt;&lt;div&gt;event:离开展区/展厅&lt;/div&gt;&lt;div&gt;style:商务/技术/儿童&lt;/div&gt;&lt;div&gt;xxx:VIP/普通/游客&lt;/div&gt;&lt;div&gt;xxx: 是否抢占&lt;/div&gt;&lt;div&gt;xxx:是否伴听&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="5" y="30" width="130" height="130" as="geometry" />
+        <mxCell id="Ui3R6bgmoIIFnqbVHPds-1" value="type:引导词/提示词&lt;div&gt;role:主动/伴听&lt;/div&gt;&lt;div&gt;event:离开展区/展厅&lt;/div&gt;&lt;div&gt;style:商务/技术/儿童&lt;/div&gt;&lt;div&gt;xxx:VIP/普通/游客&lt;/div&gt;&lt;div&gt;xxx: 是否抢占&lt;/div&gt;&lt;div&gt;xxx:是否伴听&lt;/div&gt;&lt;div&gt;设备状态:使用/空闲/无响应&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="5" y="30" width="170" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
