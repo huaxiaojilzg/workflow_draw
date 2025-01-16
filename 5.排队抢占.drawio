@@ -554,6 +554,16 @@
         <mxCell id="i1MSV0jCWOu87I4LwM3I-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1MSV0jCWOu87I4LwM3I-102" target="i1MSV0jCWOu87I4LwM3I-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i1MSV0jCWOu87I4LwM3I-117" value="商务/技术" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i1MSV0jCWOu87I4LwM3I-103">
+          <mxGeometry x="-0.6465" y="-1" relative="1" as="geometry">
+            <mxPoint x="-81" y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1MSV0jCWOu87I4LwM3I-118" value="儿童" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i1MSV0jCWOu87I4LwM3I-103">
+          <mxGeometry x="-0.5556" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i1MSV0jCWOu87I4LwM3I-102" value="分支节点5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="562" y="796" width="120" height="56" as="geometry" />
         </mxCell>
