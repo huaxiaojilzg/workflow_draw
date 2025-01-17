@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="XqIgpjNL912tUWsm86NY">
-    <mxGraphModel dx="1560" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
             <mxPoint x="390" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4yt9u2mU-97iXNzy5aZv-1" value="进入互动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jOU-Sw_w10BAUPFyjZc6-13">
+        <mxCell id="4yt9u2mU-97iXNzy5aZv-1" value="进入互动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jOU-Sw_w10BAUPFyjZc6-13" vertex="1" connectable="0">
           <mxGeometry x="-0.8594" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
