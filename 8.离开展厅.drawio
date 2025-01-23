@@ -201,10 +201,10 @@
         <mxCell id="24F_cnndnKzgg-yqGema-10" value="消息节点5" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="712" y="338" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="24F_cnndnKzgg-yqGema-11" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;主听离开提示&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="24F_cnndnKzgg-yqGema-11" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;临时离开提示&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="830" y="409" width="70" height="11" as="geometry" />
         </mxCell>
-        <mxCell id="24F_cnndnKzgg-yqGema-12" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;主听离开提示&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="24F_cnndnKzgg-yqGema-12" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;临时离开提示&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="712" y="338" width="70" height="11" as="geometry" />
         </mxCell>
         <mxCell id="24F_cnndnKzgg-yqGema-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="24F_cnndnKzgg-yqGema-22" target="D78f5MYqbMIF7nLeF2cV-15" edge="1">
