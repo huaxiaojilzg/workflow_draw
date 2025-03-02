@@ -95,8 +95,8 @@
         <mxCell id="tlXR0ImK2c8rhLXpDkq9-100" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="196" y="188" width="26" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="tlXR0ImK2c8rhLXpDkq9-104" value="箱子&lt;br&gt;（可拖拉坐）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="333" y="271" width="95" height="45" as="geometry" />
+        <mxCell id="tlXR0ImK2c8rhLXpDkq9-104" value="箱子&lt;br&gt;（可拖拉坐&lt;br&gt;容纳）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="341" y="264" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tlXR0ImK2c8rhLXpDkq9-109" value="鞋柜尺寸（内）示意图&lt;br&gt;单位：CM，整体尺寸，不包括木板厚度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="230" height="45" as="geometry" />
