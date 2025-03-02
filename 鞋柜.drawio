@@ -118,12 +118,6 @@
             <mxPoint x="341" y="437" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tlXR0ImK2c8rhLXpDkq9-117" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="196.57" y="652" as="sourcePoint" />
-            <mxPoint x="197" y="437" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tlXR0ImK2c8rhLXpDkq9-118" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="420.5" y="482" as="sourcePoint" />
