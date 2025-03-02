@@ -290,8 +290,8 @@
         <mxCell id="tlXR0ImK2c8rhLXpDkq9-100" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="196" y="188" width="26" height="5" as="geometry" />
         </mxCell>
-        <mxCell id="tlXR0ImK2c8rhLXpDkq9-104" value="板凳" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="358" y="278" width="45" height="30" as="geometry" />
+        <mxCell id="tlXR0ImK2c8rhLXpDkq9-104" value="箱子&lt;br&gt;（可拖拉坐）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="333" y="271" width="95" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
