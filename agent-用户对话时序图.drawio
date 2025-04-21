@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="z76hlhrn3iwlC4cLfXKJ-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="z76hlhrn3iwlC4cLfXKJ-5">
-          <mxGeometry x="45" y="140" width="10" height="360" as="geometry" />
+          <mxGeometry x="45" y="140" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="z76hlhrn3iwlC4cLfXKJ-7" value="session_id" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;" edge="1" parent="z76hlhrn3iwlC4cLfXKJ-5">
           <mxGeometry x="0.0022" y="-19" relative="1" as="geometry">
@@ -56,7 +56,7 @@
           <mxGeometry x="270" y="20" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="z76hlhrn3iwlC4cLfXKJ-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="z76hlhrn3iwlC4cLfXKJ-11">
-          <mxGeometry x="45" y="100" width="10" height="440" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="280" as="geometry" />
         </mxCell>
         <mxCell id="z76hlhrn3iwlC4cLfXKJ-14" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="670" y="20" width="100" height="580" as="geometry" />
@@ -76,6 +76,18 @@
             <mxPoint x="6" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="z76hlhrn3iwlC4cLfXKJ-45" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=-0.299;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="z76hlhrn3iwlC4cLfXKJ-14" source="z76hlhrn3iwlC4cLfXKJ-40">
+          <mxGeometry x="-0.1829" y="50" relative="1" as="geometry">
+            <mxPoint x="-146.18965517241372" y="300" as="targetPoint" />
+            <mxPoint x="256" y="300" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z76hlhrn3iwlC4cLfXKJ-46" value="大模型结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z76hlhrn3iwlC4cLfXKJ-45">
+          <mxGeometry x="0.0371" y="1" relative="1" as="geometry">
+            <mxPoint x="-70" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="z76hlhrn3iwlC4cLfXKJ-37" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.1829" y="50" relative="1" as="geometry">
             <mxPoint x="523" y="240.28999999999996" as="targetPoint" />
@@ -93,6 +105,30 @@
         </mxCell>
         <mxCell id="z76hlhrn3iwlC4cLfXKJ-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="z76hlhrn3iwlC4cLfXKJ-39">
           <mxGeometry x="45" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z76hlhrn3iwlC4cLfXKJ-50" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="-0.1829" y="50" relative="1" as="geometry">
+            <mxPoint x="324.0003448275863" y="360" as="targetPoint" />
+            <mxPoint x="514" y="360" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z76hlhrn3iwlC4cLfXKJ-51" value="智能体回复" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z76hlhrn3iwlC4cLfXKJ-50">
+          <mxGeometry x="0.0371" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z76hlhrn3iwlC4cLfXKJ-52" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="z76hlhrn3iwlC4cLfXKJ-11">
+          <mxGeometry x="-0.1829" y="50" relative="1" as="geometry">
+            <mxPoint x="115.00034482758628" y="400" as="targetPoint" />
+            <mxPoint x="305" y="400" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z76hlhrn3iwlC4cLfXKJ-53" value="回复信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z76hlhrn3iwlC4cLfXKJ-52">
+          <mxGeometry x="0.0371" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
