@@ -51,6 +51,11 @@
         <mxCell id="WrvPejiIo_XA222zAKY5-16" value="标签扩散" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WrvPejiIo_XA222zAKY5-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WrvPejiIo_XA222zAKY5-18" target="WrvPejiIo_XA222zAKY5-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WrvPejiIo_XA222zAKY5-18" value="向量库获取&lt;br&gt;图像集合A" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="120" width="120" height="60" as="geometry" />
         </mxCell>
@@ -59,12 +64,6 @@
         </mxCell>
         <mxCell id="WrvPejiIo_XA222zAKY5-46" value="A∩B" style="ellipse;whiteSpace=wrap;html=1;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WrvPejiIo_XA222zAKY5-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="459.76" as="sourcePoint" />
-            <mxPoint x="600" y="460" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="WrvPejiIo_XA222zAKY5-61" value="A" style="ellipse;whiteSpace=wrap;html=1;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="130" width="120" height="60" as="geometry" />
@@ -81,17 +80,28 @@
         <mxCell id="WrvPejiIo_XA222zAKY5-64" value="是否包含时间、地点、大小" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="430" width="210" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WrvPejiIo_XA222zAKY5-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WrvPejiIo_XA222zAKY5-65" target="WrvPejiIo_XA222zAKY5-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WrvPejiIo_XA222zAKY5-65" value="数据库过滤检索&lt;br&gt;图像集合C" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="310" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WrvPejiIo_XA222zAKY5-68" value="C" style="ellipse;whiteSpace=wrap;html=1;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WrvPejiIo_XA222zAKY5-69" value="判断集合C是否为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="420" width="130" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="WrvPejiIo_XA222zAKY5-70" value="A" style="ellipse;whiteSpace=wrap;html=1;flipH=1;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WrvPejiIo_XA222zAKY5-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WrvPejiIo_XA222zAKY5-73" target="WrvPejiIo_XA222zAKY5-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WrvPejiIo_XA222zAKY5-73" value="C ≠ None" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="435" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WrvPejiIo_XA222zAKY5-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WrvPejiIo_XA222zAKY5-73" target="WrvPejiIo_XA222zAKY5-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
