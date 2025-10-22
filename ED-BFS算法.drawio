@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="第 1 页" id="9zeFtvbFsk4h5sflBKEF">
-    <mxGraphModel>
+    <mxGraphModel dx="1766" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-1" target="gI92ADDZjxy7N_XkdTNN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-2" target="gI92ADDZjxy7N_XkdTNN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-2" value="初始化所有&lt;div&gt;节点 Event&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-4" target="gI92ADDZjxy7N_XkdTNN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-4" value="标记开始节点&lt;div&gt;需要运行&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-6" target="gI92ADDZjxy7N_XkdTNN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-6" value="初始化&lt;div&gt;任务队列&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-10" target="gI92ADDZjxy7N_XkdTNN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gI92ADDZjxy7N_XkdTNN-13">
+          <mxGeometry x="-0.0805" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-10" target="gI92ADDZjxy7N_XkdTNN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-10" value="是否存在&lt;div&gt;就绪节点&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-12" value="创建异步任务&lt;div&gt;执行节点&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-15" target="gI92ADDZjxy7N_XkdTNN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-15" value="是否存在&lt;div&gt;运行任务&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="490" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-17" value="结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="885" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
