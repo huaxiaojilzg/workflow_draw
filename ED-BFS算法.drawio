@@ -92,8 +92,11 @@
             <mxPoint x="535" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gI92ADDZjxy7N_XkdTNN-32" value="是否存在&lt;div&gt;就绪节点&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="630" width="170" height="80" as="geometry" />
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-32" target="gI92ADDZjxy7N_XkdTNN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-32" target="gI92ADDZjxy7N_XkdTNN-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gI92ADDZjxy7N_XkdTNN-42" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="160" y="350" width="160" height="370" as="geometry" />
@@ -122,6 +125,9 @@
         <mxCell id="gI92ADDZjxy7N_XkdTNN-40" value="触发完成事件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="gI92ADDZjxy7N_XkdTNN-42">
           <mxGeometry x="20" y="290" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-32" value="是否存在&lt;div&gt;下游节点&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="630" width="170" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="gI92ADDZjxy7N_XkdTNN-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.008;entryY=0.055;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="gI92ADDZjxy7N_XkdTNN-12" target="gI92ADDZjxy7N_XkdTNN-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="598" y="374" as="sourcePoint" />
@@ -133,6 +139,12 @@
             <mxPoint x="618" y="394" as="sourcePoint" />
             <mxPoint x="550" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-45" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gI92ADDZjxy7N_XkdTNN-47" value="保存最终结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
