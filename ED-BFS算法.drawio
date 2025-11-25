@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="9zeFtvbFsk4h5sflBKEF">
-    <mxGraphModel dx="1828" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="740" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -628,13 +628,18 @@
         <mxCell id="x_rhQTfn9RexV7ZqKdae-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x_rhQTfn9RexV7ZqKdae-31" target="x_rhQTfn9RexV7ZqKdae-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x_rhQTfn9RexV7ZqKdae-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x_rhQTfn9RexV7ZqKdae-53" value="完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_rhQTfn9RexV7ZqKdae-33">
+          <mxGeometry x="-0.1202" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x_rhQTfn9RexV7ZqKdae-31" value="节点A运行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1815" y="2380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x_rhQTfn9RexV7ZqKdae-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x_rhQTfn9RexV7ZqKdae-32" target="x_rhQTfn9RexV7ZqKdae-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x_rhQTfn9RexV7ZqKdae-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x_rhQTfn9RexV7ZqKdae-32" value="发出完成信号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1815" y="2520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x_rhQTfn9RexV7ZqKdae-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x_rhQTfn9RexV7ZqKdae-34" target="x_rhQTfn9RexV7ZqKdae-36">
@@ -693,6 +698,9 @@
         </mxCell>
         <mxCell id="x_rhQTfn9RexV7ZqKdae-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1815" y="3080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x_rhQTfn9RexV7ZqKdae-52" value="节点执行环境" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1837.5" y="2338" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
