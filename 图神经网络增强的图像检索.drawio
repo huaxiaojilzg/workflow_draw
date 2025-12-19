@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="vKYcPdFrlTmGFqrHj6Vw">
-    <mxGraphModel dx="2181" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2339" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,6 +352,15 @@
         </mxCell>
         <mxCell id="3t8mrBOs2AZQqVWu2CKX-44" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=13;" value="输出标签集" vertex="1">
           <mxGeometry height="60" width="120" x="255" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="3t8mrBOs2AZQqVWu2CKX-52" edge="1" parent="1" source="3t8mrBOs2AZQqVWu2CKX-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3t8mrBOs2AZQqVWu2CKX-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3t8mrBOs2AZQqVWu2CKX-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="图像输入" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="3t8mrBOs2AZQqVWu2CKX-51" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="视觉编码&lt;div&gt;（VLM/CLIP）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="2440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
