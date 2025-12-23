@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel>
+    <mxGraphModel dx="1254" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WbycPP70laGcA09IwkJH-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="580" />
+            </Array>
+            <mxPoint x="100" y="640" as="sourcePoint" />
+            <mxPoint x="130" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-5" parent="1" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" value="" vertex="1">
+          <mxGeometry height="40" width="60" x="240" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="440" width="120" x="580" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-2" edge="1" parent="1" style="shape=link;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="50" y="642" as="sourcePoint" />
+            <mxPoint x="710" y="642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="585" />
+            </Array>
+            <mxPoint x="280" y="640" as="sourcePoint" />
+            <mxPoint x="240" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-10" edge="1" parent="1" style="endArrow=baseDash;startArrow=baseDash;html=1;rounded=0;endFill=0;startFill=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="637" as="sourcePoint" />
+            <mxPoint x="80" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-14" connectable="0" parent="WbycPP70laGcA09IwkJH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="H=0.5 m" vertex="1">
+          <mxGeometry relative="1" x="0.035" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#121111, #ededed);" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="280" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="双目相机" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-15" edge="1" parent="1" style="endArrow=baseDash;startArrow=baseDash;html=1;rounded=0;strokeWidth=2;endFill=0;startFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="635" as="sourcePoint" />
+            <mxPoint x="710" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-16" connectable="0" parent="WbycPP70laGcA09IwkJH-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="站立人员身高&lt;div&gt;1.5m - 1.8m&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.035" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="22" width="649" x="61" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-18" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-12" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="470" as="sourcePoint" />
+            <mxPoint x="580" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="视线" vertex="1">
+          <mxGeometry height="30" width="60" x="414" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-23" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.49675239075581273;endAngle=0.6605252007675729;rotation=-135;" value="" vertex="1">
+          <mxGeometry height="90" width="100" x="300" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-26" parent="1" style="line;strokeWidth=1;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="10" width="126" x="324" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;约45°&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-28" edge="1" parent="1" style="endArrow=baseDash;startArrow=baseDash;html=1;rounded=0;strokeWidth=2;endFill=0;startFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="630" as="sourcePoint" />
+            <mxPoint x="289.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-29" connectable="0" parent="WbycPP70laGcA09IwkJH-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="距离0.5 m - 3.0 m" vertex="1">
+          <mxGeometry relative="1" x="0.035" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
