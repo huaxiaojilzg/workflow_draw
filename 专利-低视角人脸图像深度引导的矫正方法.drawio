@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel dx="3573" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2565" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,6 +112,16 @@
         <mxCell id="WbycPP70laGcA09IwkJH-34" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="右红外相机" vertex="1">
           <mxGeometry height="60" width="120" x="310" y="1090" as="geometry" />
         </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-58" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-62" connectable="0" parent="0MEphX60iDTSVISej_C8-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="深度数据流" vertex="1">
+          <mxGeometry relative="1" x="0.0891" y="-1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="深度图" vertex="1">
           <mxGeometry height="60" width="120" x="210" y="1200" as="geometry" />
         </mxCell>
@@ -120,6 +130,16 @@
         </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-40" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="RGB彩色相机" vertex="1">
           <mxGeometry height="60" width="120" x="540" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-59" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-61" connectable="0" parent="0MEphX60iDTSVISej_C8-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="RGB数据流" vertex="1">
+          <mxGeometry relative="1" x="0.0399" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="RGB图像" vertex="1">
           <mxGeometry height="60" width="120" x="540" y="1200" as="geometry" />
@@ -243,6 +263,9 @@
             <mxPoint x="-790" y="2600" as="sourcePoint" />
             <mxPoint x="838.0000305175781" y="2590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="深度RBG对齐&lt;br&gt;像素级配准" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
