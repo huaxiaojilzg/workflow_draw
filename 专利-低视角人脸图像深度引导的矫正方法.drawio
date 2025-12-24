@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WbycPP70laGcA09IwkJH-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="660" x="70" y="1010" as="geometry" />
+        </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -97,11 +100,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-37" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WbycPP70laGcA09IwkJH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="左红外相机" vertex="1">
           <mxGeometry height="60" width="120" x="110" y="1090" as="geometry" />
         </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-38" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WbycPP70laGcA09IwkJH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-34" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="右红外相机" vertex="1">
           <mxGeometry height="60" width="120" x="310" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="深度图" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-42" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WbycPP70laGcA09IwkJH-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-40" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="RGB彩色相机" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="RGB图像" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="WbycPP70laGcA09IwkJH-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Intel RealSense D435i 深度相机" vertex="1">
+          <mxGeometry height="30" width="420" x="190" y="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
