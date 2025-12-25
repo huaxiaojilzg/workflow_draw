@@ -427,6 +427,24 @@
         <mxCell id="0MEphX60iDTSVISej_C8-124" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="下巴" vertex="1">
           <mxGeometry height="30" width="60" x="2200" y="770" as="geometry" />
         </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="左眼" vertex="1">
+          <mxGeometry height="30" width="60" x="2472" y="538.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="右眼" vertex="1">
+          <mxGeometry height="30" width="60" x="2539" y="538.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="鼻尖" vertex="1">
+          <mxGeometry height="30" width="60" x="2515" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="左嘴角" vertex="1">
+          <mxGeometry height="30" width="60" x="2488" y="675.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-130" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="右嘴角" vertex="1">
+          <mxGeometry height="30" width="60" x="2536" y="675.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="下巴" vertex="1">
+          <mxGeometry height="30" width="60" x="2515" y="720" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
