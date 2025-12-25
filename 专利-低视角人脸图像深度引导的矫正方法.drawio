@@ -272,7 +272,7 @@
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-85" connectable="0" parent="0MEphX60iDTSVISej_C8-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对齐后RGB图" vertex="1">
           <mxGeometry relative="1" x="0.1667" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="42" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-82" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-75">
@@ -280,7 +280,7 @@
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-84" connectable="0" parent="0MEphX60iDTSVISej_C8-82" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对齐后深度图" vertex="1">
           <mxGeometry relative="1" x="-0.2727" y="-1" as="geometry">
-            <mxPoint x="1" y="-9" as="offset" />
+            <mxPoint x="-13" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-89" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-78">
