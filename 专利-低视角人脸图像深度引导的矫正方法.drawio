@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel dx="2565" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0MEphX60iDTSVISej_C8-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="450" width="660" x="70" y="1360" as="geometry" />
+          <mxGeometry height="520" width="660" x="70" y="1360" as="geometry" />
         </mxCell>
         <mxCell id="WbycPP70laGcA09IwkJH-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="280" width="660" x="70" y="1010" as="geometry" />
@@ -115,7 +115,7 @@
         <mxCell id="WbycPP70laGcA09IwkJH-34" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="右红外相机" vertex="1">
           <mxGeometry height="60" width="120" x="310" y="1090" as="geometry" />
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-58" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-55">
+        <mxCell id="0MEphX60iDTSVISej_C8-58" edge="1" parent="1" source="WbycPP70laGcA09IwkJH-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -267,51 +267,39 @@
             <mxPoint x="1028.0000305175781" y="3330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-67" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-63">
+        <mxCell id="0MEphX60iDTSVISej_C8-81" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-68" connectable="0" parent="0MEphX60iDTSVISej_C8-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="RBG图像" vertex="1">
-          <mxGeometry relative="1" x="-0.0588" as="geometry">
+        <mxCell id="0MEphX60iDTSVISej_C8-85" connectable="0" parent="0MEphX60iDTSVISej_C8-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对齐后RGB图" vertex="1">
+          <mxGeometry relative="1" x="0.1667" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-71" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-64">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="1430" />
-              <mxPoint x="320" y="1660" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="0MEphX60iDTSVISej_C8-82" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-75">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-74" connectable="0" parent="0MEphX60iDTSVISej_C8-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对齐后深度图" vertex="1">
-          <mxGeometry relative="1" x="-0.0239" y="-1" as="geometry">
+        <mxCell id="0MEphX60iDTSVISej_C8-84" connectable="0" parent="0MEphX60iDTSVISej_C8-82" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对齐后深度图" vertex="1">
+          <mxGeometry relative="1" x="-0.2727" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="深度RBG对齐&lt;br&gt;像素级配准" vertex="1">
-          <mxGeometry height="60" width="120" x="370" y="1400" as="geometry" />
-        </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-65" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0MEphX60iDTSVISej_C8-64" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="1570" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-66" connectable="0" parent="0MEphX60iDTSVISej_C8-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="人脸关键点坐标" vertex="1">
-          <mxGeometry relative="1" x="-0.093" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry height="60" width="120" x="210" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人脸检测模块" vertex="1">
-          <mxGeometry height="60" width="120" x="470" y="1510" as="geometry" />
-        </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-73" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0MEphX60iDTSVISej_C8-72" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-64" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="透视矫正模块" vertex="1">
-          <mxGeometry height="60" width="120" x="370" y="1630" as="geometry" />
+          <mxGeometry height="60" width="120" x="590" y="1610" as="geometry" />
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-72" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="人脸正面视角图像" vertex="1">
-          <mxGeometry height="60" width="120" x="370" y="1730" as="geometry" />
+          <mxGeometry height="60" width="120" x="430" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-75" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="全图几何变换&lt;br&gt;（粗矫正模块）" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-80" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-78" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="关键点引导变换&lt;br&gt;（精矫正模块）" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="1630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
