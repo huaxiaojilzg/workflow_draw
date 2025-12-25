@@ -275,31 +275,55 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-82" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-75">
+        <mxCell id="0MEphX60iDTSVISej_C8-82" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-84" connectable="0" parent="0MEphX60iDTSVISej_C8-82" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="对齐后深度图" vertex="1">
           <mxGeometry relative="1" x="-0.2727" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-89" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-90" connectable="0" parent="0MEphX60iDTSVISej_C8-89" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="粗矫正深度图" vertex="1">
+          <mxGeometry relative="1" x="-0.351" as="geometry">
+            <mxPoint y="29" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="深度RBG对齐&lt;br&gt;像素级配准" vertex="1">
           <mxGeometry height="60" width="120" x="210" y="1400" as="geometry" />
         </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-91" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-92" connectable="0" parent="0MEphX60iDTSVISej_C8-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="人脸关键点坐标" vertex="1">
+          <mxGeometry relative="1" x="0.0287" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人脸检测模块" vertex="1">
-          <mxGeometry height="60" width="120" x="590" y="1610" as="geometry" />
+          <mxGeometry height="60" width="120" x="450" y="1580" as="geometry" />
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-72" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="人脸正面视角图像" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="1750" as="geometry" />
+          <mxGeometry height="60" width="120" x="524" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-86" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0MEphX60iDTSVISej_C8-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MEphX60iDTSVISej_C8-87" connectable="0" parent="0MEphX60iDTSVISej_C8-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="粗矫正图像/深度图" vertex="1">
+          <mxGeometry relative="1" x="-0.1722" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-75" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="全图几何变换&lt;br&gt;（粗矫正模块）" vertex="1">
-          <mxGeometry height="60" width="120" x="340" y="1470" as="geometry" />
+          <mxGeometry height="60" width="120" x="450" y="1470" as="geometry" />
         </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-80" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-72">
+        <mxCell id="0MEphX60iDTSVISej_C8-93" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="0MEphX60iDTSVISej_C8-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-78" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="关键点引导变换&lt;br&gt;（精矫正模块）" vertex="1">
-          <mxGeometry height="60" width="120" x="430" y="1630" as="geometry" />
+          <mxGeometry height="60" width="120" x="210" y="1710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
