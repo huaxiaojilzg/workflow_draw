@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel dx="3878" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -401,12 +401,6 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1080" y="540" as="sourcePoint" />
             <mxPoint x="1130" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-118" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-105" style="endArrow=classic;html=1;rounded=0;exitX=0.852;exitY=0.879;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.609;entryY=0.726;entryDx=0;entryDy=0;entryPerimeter=0;" target="0MEphX60iDTSVISej_C8-111" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1190" y="630" as="sourcePoint" />
-            <mxPoint x="1240" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="左眼" vertex="1">
