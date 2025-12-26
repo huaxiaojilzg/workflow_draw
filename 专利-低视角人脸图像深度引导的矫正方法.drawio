@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel dx="1807" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4878" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,12 +266,6 @@
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="AUX 盖" vertex="1">
           <mxGeometry height="30" width="80" x="454" y="1039" as="geometry" />
-        </mxCell>
-        <mxCell id="0MEphX60iDTSVISej_C8-53" edge="1" parent="1" style="shape=link;html=1;rounded=0;" value="">
-          <mxGeometry relative="1" width="100" as="geometry">
-            <mxPoint x="-600" y="3340" as="sourcePoint" />
-            <mxPoint x="1028.0000305175781" y="3330" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-81" edge="1" parent="1" source="0MEphX60iDTSVISej_C8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0MEphX60iDTSVISej_C8-75">
           <mxGeometry relative="1" as="geometry" />
@@ -551,6 +545,643 @@
         </mxCell>
         <mxCell id="0MEphX60iDTSVISej_C8-199" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="右嘴角&lt;div&gt;(u5,v5)&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="1284" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1" value="低视角畸变图像&#xa;仰角: 30-60°&#xa;面部比例失真: 35-58%" vertex="1">
+          <mxGeometry height="100" width="200" x="-500" y="2290" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="粗矫正处理" vertex="1">
+          <mxGeometry height="70" width="160" x="-220" y="2305" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-3" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#0066CC;" target="yfa4s89nRjiZ8BzE9Qhu-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=1" value="接近正面图像&#xa;仰角: &lt;15°&#xa;面部比例失真: &lt;15%" vertex="1">
+          <mxGeometry height="100" width="200" x="20" y="2290" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-5" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#0066CC;" target="yfa4s89nRjiZ8BzE9Qhu-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#0066CC;fontStyle=1" value="消除大范围畸变&#xa;仰角 30-60° → 15°" vertex="1">
+          <mxGeometry height="40" width="200" x="-240" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="人脸检测&#xa;RetinaFace" vertex="1">
+          <mxGeometry height="70" width="160" x="300" y="2305" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-8" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#CC0000;" target="yfa4s89nRjiZ8BzE9Qhu-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#CC0000;fontStyle=1" value="检测准确率提升&#xa;75-80% → 88-92%" vertex="1">
+          <mxGeometry height="40" width="200" x="220" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#6c8ebf;fontSize=12;fontStyle=1" value="精确关键点坐标&#xa;定位误差: 2-3像素&#xa;5个关键点 (左眼、右眼、鼻尖、左右嘴角)" vertex="1">
+          <mxGeometry height="120" width="220" x="540" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-11" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#CC0000;" target="yfa4s89nRjiZ8BzE9Qhu-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#CC0000;fontStyle=1" value="关键点定位误差降低&#xa;5-8像素 → 2-3像素" vertex="1">
+          <mxGeometry height="40" width="200" x="460" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4e1;strokeColor=#d79b00;fontSize=14;fontStyle=1" value="精矫正处理" vertex="1">
+          <mxGeometry height="70" width="160" x="300" y="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-14" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#009900;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="yfa4s89nRjiZ8BzE9Qhu-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="2440" />
+              <mxPoint x="520" y="2440" />
+              <mxPoint x="520" y="2525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="提供强几何约束&#xa;平面拟合精度提升" vertex="1">
+          <mxGeometry height="40" width="200" x="520" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="标准正面图像&#xa;仰角: &lt;5°&#xa;面部比例误差: &lt;2%&#xa;几何准确度高" vertex="1">
+          <mxGeometry height="100" width="200" x="20" y="2475" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-17" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#009900;" target="yfa4s89nRjiZ8BzE9Qhu-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="面部比例恢复&#xa;误差降至 2%" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="2485" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=14;fontStyle=1" value="人脸识别&#xa;识别准确率: 94%+" vertex="1">
+          <mxGeometry height="70" width="160" x="-220" y="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-20" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#6600CC;" target="yfa4s89nRjiZ8BzE9Qhu-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#6600CC;fontStyle=1" value="识别准确率&#xa;提升至 94%+" vertex="1">
+          <mxGeometry height="40" width="160" x="-60" y="2485" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontStyle=1" value="协同增强效应" vertex="1">
+          <mxGeometry height="60" width="200" x="20" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-23" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;dashed=1;strokeColor=#FF6600;" target="yfa4s89nRjiZ8BzE9Qhu-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-24" parent="1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=0" value="粗矫正创造理想检测条件 →&#xa;检测器工作在最佳状态 →&#xa;关键点精度提升 →&#xa;精矫正精度提升 →&#xa;识别性能大幅改善" vertex="1">
+          <mxGeometry height="80" width="360" x="-60" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-25" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;dashed=1;strokeColor=#FF6600;" target="yfa4s89nRjiZ8BzE9Qhu-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1" value="性能对比：两阶段 vs 单次矫正" vertex="1">
+          <mxGeometry height="40" width="400" x="-500" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-27" parent="1" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=0" value="单次矫正：识别准确率 ~92%&#xa;两阶段矫正：识别准确率 94-96%&#xa;协同增益：+2-4 个百分点&#xa;处理时间仅增加：5ms (30ms → 35ms)" vertex="1">
+          <mxGeometry height="70" width="400" x="-500" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-28" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=1;dashed=1;strokeColor=#666666;" target="yfa4s89nRjiZ8BzE9Qhu-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#0066CC;fontStyle=1" value="阶段一：粗矫正" vertex="1">
+          <mxGeometry height="30" width="200" x="-240" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-30" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#009900;fontStyle=1" value="阶段二：精矫正" vertex="1">
+          <mxGeometry height="30" width="200" x="280" y="2450" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1" value="关键优势：&#xa;✓ 粗矫正消除大范围畸变&#xa;✓ 精确检测提供强约束&#xa;✓ 精矫正恢复细节&#xa;✓ 两阶段相互配合" vertex="1">
+          <mxGeometry height="110" width="240" x="420" y="2650" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="-50" y="3080" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1" value="步骤一：深度相机数据采集与对齐" vertex="1">
+          <mxGeometry height="60" width="300" x="-140" y="3180" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-34" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" value="输出：RGB图像I_low + 深度图D" vertex="1">
+          <mxGeometry height="40" width="260" x="-120" y="3270" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-36" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=13;fontStyle=1" value="步骤二：全图粗矫正处理" vertex="1">
+          <mxGeometry height="60" width="300" x="-140" y="3350" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-38" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-39" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;startSize=30;" value="粗矫正核心流程" vertex="1">
+          <mxGeometry height="240" width="860" x="-420" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-40" parent="yfa4s89nRjiZ8BzE9Qhu-39" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="像素反投影&#xa;P_cam = Z·K⁻¹·p" vertex="1">
+          <mxGeometry height="60" width="160" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-41" parent="yfa4s89nRjiZ8BzE9Qhu-39" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="坐标系转换&#xa;P_world = R⁻¹·(P_cam-t)" vertex="1">
+          <mxGeometry height="60" width="160" x="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-42" parent="yfa4s89nRjiZ8BzE9Qhu-39" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="投影至虚拟正面相机&#xa;P_coarse = P_world + t_coarse" vertex="1">
+          <mxGeometry height="60" width="180" x="430" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-43" parent="yfa4s89nRjiZ8BzE9Qhu-39" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="双线性插值重建&#xa;生成I_coarse + D_coarse" vertex="1">
+          <mxGeometry height="60" width="180" x="650" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-44" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-39" source="yfa4s89nRjiZ8BzE9Qhu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-45" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-39" source="yfa4s89nRjiZ8BzE9Qhu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-46" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-39" source="yfa4s89nRjiZ8BzE9Qhu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-47" parent="yfa4s89nRjiZ8BzE9Qhu-39" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="耗时：~15ms&#xa;消除大范围畸变 (30-60° → &lt;15°)" vertex="1">
+          <mxGeometry height="40" width="250" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-48" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12" value="输出：I_coarse + D_coarse" vertex="1">
+          <mxGeometry height="40" width="260" x="-120" y="3710" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-50" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1" value="步骤三：人脸检测与关键点定位" vertex="1">
+          <mxGeometry height="60" width="300" x="-140" y="3790" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-52" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11" value="输出：人脸区域 + 5个关键点坐标&#xa;(左眼、右眼、鼻尖、左嘴角、右嘴角)" vertex="1">
+          <mxGeometry height="50" width="300" x="-140" y="3880" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-54" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4e1;strokeColor=#d79b00;fontSize=13;fontStyle=1" value="步骤四：精矫正处理" vertex="1">
+          <mxGeometry height="60" width="300" x="-140" y="3970" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-56" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-55" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-57" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff4e1;strokeColor=#d79b00;fontSize=12;fontStyle=1;startSize=30;" value="精矫正核心流程" vertex="1">
+          <mxGeometry height="280" width="940" x="-460" y="4060" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-58" parent="yfa4s89nRjiZ8BzE9Qhu-57" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="关键点深度查询&#xa;Z_i = D_face(u_i, v_i)" vertex="1">
+          <mxGeometry height="60" width="160" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-59" parent="yfa4s89nRjiZ8BzE9Qhu-57" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="人脸局部平面拟合&#xa;ax+by+cz+d=0&#xa;(SVD最小二乘)" vertex="1">
+          <mxGeometry height="70" width="170" x="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-60" parent="yfa4s89nRjiZ8BzE9Qhu-57" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="精细虚拟相机参数计算&#xa;R_fine (Rodrigues公式)&#xa;t_fine = [0, 0, 1000]" vertex="1">
+          <mxGeometry height="70" width="200" x="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-61" parent="yfa4s89nRjiZ8BzE9Qhu-57" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="双三次插值精细重建&#xa;生成I_front&#xa;(面部比例误差&lt;2%)" vertex="1">
+          <mxGeometry height="70" width="220" x="680" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-62" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-57" source="yfa4s89nRjiZ8BzE9Qhu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-63" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-57" source="yfa4s89nRjiZ8BzE9Qhu-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-64" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-57" source="yfa4s89nRjiZ8BzE9Qhu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-61" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-65" parent="yfa4s89nRjiZ8BzE9Qhu-57" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="耗时：~12ms&#xa;基于真实关键点，彻底消除残余畸变" vertex="1">
+          <mxGeometry height="40" width="300" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-66" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="步骤五：输出与性能优化" vertex="1">
+          <mxGeometry height="60" width="300" x="-140" y="4380" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-68" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;align=left;" value="结束：标准正面视角人脸图像 I_front&#xa;✓ 仰角 &lt; 5°&#xa;✓ 面部比例误差 &lt; 2%&#xa;✓ 识别准确率 94%+&#xa;✓ 总耗时 ~35ms (30 FPS)" vertex="1">
+          <mxGeometry height="120" width="380" x="-180" y="4480" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-70" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-71" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;" value="RetinaFace检测器&#xa;检测准确率: 88-92%&#xa;耗时: ~8ms" vertex="1">
+          <mxGeometry height="50" width="180" x="220" y="3800" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-72" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=1;dashed=1;" target="yfa4s89nRjiZ8BzE9Qhu-71" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-73" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;startSize=40;" value="硬件层" vertex="1">
+          <mxGeometry height="160" width="1200" x="1241" y="2360" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-74" parent="yfa4s89nRjiZ8BzE9Qhu-73" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1" value="双目深度相机&#xa;Intel RealSense D435i&#xa;红外双目 + RGB相机" vertex="1">
+          <mxGeometry height="80" width="200" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-75" parent="yfa4s89nRjiZ8BzE9Qhu-73" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1" value="四足机器人平台&#xa;相机安装高度: 0.3-0.8m&#xa;典型视角: 30-60° 仰视" vertex="1">
+          <mxGeometry height="80" width="220" x="680" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-76" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-73" source="yfa4s89nRjiZ8BzE9Qhu-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;dashed=1;" target="yfa4s89nRjiZ8BzE9Qhu-74" value="搭载">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-77" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;startSize=40;" value="数据采集层" vertex="1">
+          <mxGeometry height="200" width="1200" x="1241" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-78" parent="yfa4s89nRjiZ8BzE9Qhu-77" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11" value="红外双目模组&#xa;基线距离 B=50mm&#xa;立体视觉深度测量" vertex="1">
+          <mxGeometry height="70" width="180" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-79" parent="yfa4s89nRjiZ8BzE9Qhu-77" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11" value="RGB相机&#xa;分辨率: 640×480&#xa;帧率: 30fps" vertex="1">
+          <mxGeometry height="70" width="160" x="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-80" parent="yfa4s89nRjiZ8BzE9Qhu-77" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=11" value="内置深度处理器&#xa;立体匹配算法&#xa;Z = B·f/d" vertex="1">
+          <mxGeometry height="70" width="160" x="500" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-81" parent="yfa4s89nRjiZ8BzE9Qhu-77" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1" value="深度图 D&#xa;16位, 单位mm&#xa;误差 &lt; 1%" vertex="1">
+          <mxGeometry height="60" width="120" x="940" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-82" parent="yfa4s89nRjiZ8BzE9Qhu-77" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1" value="RGB图像 I_low&#xa;RGB三通道&#xa;8位/通道" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-83" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-77" source="yfa4s89nRjiZ8BzE9Qhu-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-84" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-77" source="yfa4s89nRjiZ8BzE9Qhu-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-85" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-77" source="yfa4s89nRjiZ8BzE9Qhu-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-81" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-86" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;startSize=40;" value="对齐层" vertex="1">
+          <mxGeometry height="150" width="1200" x="1241" y="2800" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-87" parent="yfa4s89nRjiZ8BzE9Qhu-86" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=12;fontStyle=1" value="深度-RGB对齐模块&#xa;利用相机外参标定矩阵&#xa;像素级配准" vertex="1">
+          <mxGeometry height="70" width="240" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-88" parent="yfa4s89nRjiZ8BzE9Qhu-86" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1" value="对齐数据&#xa;I_low + D&#xa;像素级对齐" vertex="1">
+          <mxGeometry height="70" width="160" x="800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-89" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-86" source="yfa4s89nRjiZ8BzE9Qhu-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-88" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-90" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-91" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-87" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-92" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;startSize=40;" value="粗矫正阶段" vertex="1">
+          <mxGeometry height="200" width="1200" x="1241" y="2990" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-93" parent="yfa4s89nRjiZ8BzE9Qhu-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11;align=left;" value="全图几何变换&#xa;• 像素反投影&#xa;• 坐标系转换&#xa;• 虚拟相机投影&#xa;• 双线性插值" vertex="1">
+          <mxGeometry height="120" width="280" x="380" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-94" parent="yfa4s89nRjiZ8BzE9Qhu-92" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1" value="I_coarse + D_coarse&#xa;粗矫正图像和深度&#xa;仰角 &lt; 15°" vertex="1">
+          <mxGeometry height="80" width="180" x="800" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-95" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-92" source="yfa4s89nRjiZ8BzE9Qhu-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-94" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-96" parent="yfa4s89nRjiZ8BzE9Qhu-92" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="耗时: ~15ms" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-97" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-98" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;startSize=40;" value="检测阶段" vertex="1">
+          <mxGeometry height="180" width="1200" x="1241" y="3230" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-99" parent="yfa4s89nRjiZ8BzE9Qhu-98" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=11;align=left;" value="RetinaFace检测器&#xa;深度学习人脸检测&#xa;• 边界框定位&#xa;• 5个关键点检测" vertex="1">
+          <mxGeometry height="100" width="280" x="380" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-100" parent="yfa4s89nRjiZ8BzE9Qhu-98" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1" value="人脸框 + 关键点&#xa;准确率: 88-92%&#xa;定位误差: 2-3像素" vertex="1">
+          <mxGeometry height="80" width="180" x="800" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-101" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-98" source="yfa4s89nRjiZ8BzE9Qhu-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-102" parent="yfa4s89nRjiZ8BzE9Qhu-98" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="耗时: ~8ms" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-103" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-104" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff4e1;strokeColor=#d79b00;fontSize=14;fontStyle=1;startSize=40;" value="精矫正阶段" vertex="1">
+          <mxGeometry height="220" width="1200" x="1241" y="3450" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-105" parent="yfa4s89nRjiZ8BzE9Qhu-104" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;align=left;" value="平面拟合模块&#xa;• 关键点深度查询&#xa;• 3D坐标计算&#xa;• SVD平面拟合" vertex="1">
+          <mxGeometry height="100" width="200" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-106" parent="yfa4s89nRjiZ8BzE9Qhu-104" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;align=left;" value="精细几何变换&#xa;• 自适应R_fine&#xa;• 精细投影&#xa;• 双三次插值" vertex="1">
+          <mxGeometry height="100" width="200" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-107" parent="yfa4s89nRjiZ8BzE9Qhu-104" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1" value="I_front&#xa;标准正面人脸&#xa;仰角 &lt; 5°&#xa;比例误差 &lt; 2%" vertex="1">
+          <mxGeometry height="90" width="160" x="600" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-108" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-104" source="yfa4s89nRjiZ8BzE9Qhu-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-109" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-104" source="yfa4s89nRjiZ8BzE9Qhu-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-107" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-110" parent="yfa4s89nRjiZ8BzE9Qhu-104" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="耗时: ~12ms" vertex="1">
+          <mxGeometry height="30" width="80" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-111" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-105" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-112" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yfa4s89nRjiZ8BzE9Qhu-106" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2131" y="3220" />
+              <mxPoint x="2301" y="3220" />
+              <mxPoint x="2301" y="3480" />
+              <mxPoint x="1681" y="3480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-113" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=14;fontStyle=1;startSize=40;" value="识别层" vertex="1">
+          <mxGeometry height="180" width="1200" x="1241" y="3710" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-114" parent="yfa4s89nRjiZ8BzE9Qhu-113" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0e8088;fontSize=11;align=left;" value="人脸识别模型&#xa;ArcFace / CosFace&#xa;特征提取 + 相似度匹配" vertex="1">
+          <mxGeometry height="100" width="280" x="380" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-115" parent="yfa4s89nRjiZ8BzE9Qhu-113" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=1" value="识别结果&#xa;准确率: 94%+&#xa;误识率: &lt;0.08%&#xa;总耗时: ~35ms" vertex="1">
+          <mxGeometry height="90" width="160" x="800" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-116" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-113" source="yfa4s89nRjiZ8BzE9Qhu-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-115" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-117" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-114" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-118" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-119" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-79" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-120" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="3200" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12" value="初始化相机参数&#xa;K, R, t" vertex="1">
+          <mxGeometry height="60" width="160" x="3180" y="2760" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-122" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-121" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-123" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12" value="采集RGB图像和深度图" vertex="1">
+          <mxGeometry height="60" width="160" x="3180" y="2860" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-124" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-123" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12" value="深度-RGB对齐" vertex="1">
+          <mxGeometry height="60" width="160" x="3180" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-126" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-125" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-127" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="深度图质量检查" vertex="1">
+          <mxGeometry height="80" width="180" x="3170" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-128" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-127" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-129" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12" value="深度滤波与填充" vertex="1">
+          <mxGeometry height="60" width="140" x="3420" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-130" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="yfa4s89nRjiZ8BzE9Qhu-129" value="质量不足">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-131" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;startSize=35;" value="粗矫正处理" vertex="1">
+          <mxGeometry height="600" width="1120" x="2740" y="3190" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-132" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="设置虚拟相机参数&#xa;R_coarse = I&#xa;t_coarse = [0, 0, 1500]" vertex="1">
+          <mxGeometry height="70" width="180" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-133" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="遍历全图像素&#xa;for (u, v) in image" vertex="1">
+          <mxGeometry height="60" width="140" x="440" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-134" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-133" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-135" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="像素反投影&#xa;Z = D(u,v)&#xa;P_cam = Z·K⁻¹·[u,v,1]ᵀ" vertex="1">
+          <mxGeometry height="70" width="160" x="80" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-136" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="转换至世界坐标&#xa;P_world = Rᵀ·P_cam - Rᵀ·t" vertex="1">
+          <mxGeometry height="70" width="180" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-137" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="转换至虚拟相机&#xa;P_coarse = P_world + t_coarse" vertex="1">
+          <mxGeometry height="70" width="180" x="500" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-138" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="正向投影&#xa;[x,y,z]ᵀ = K·P_coarse&#xa;u_c=x/z, v_c=y/z" vertex="1">
+          <mxGeometry height="70" width="160" x="720" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-139" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-136" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-140" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-137" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-141" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-138" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-142" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-135" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="250" />
+              <mxPoint x="160" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-143" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="构建映射场&#xa;M_coarse: (u,v)→(u_c,v_c)" vertex="1">
+          <mxGeometry height="60" width="180" x="420" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-144" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-143" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="360" />
+              <mxPoint x="510" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-145" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="双线性插值重映射&#xa;I_coarse = remap(I_low, M_coarse)&#xa;D_coarse = remap(D, M_coarse)" vertex="1">
+          <mxGeometry height="70" width="240" x="390" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-146" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-145" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-147" parent="yfa4s89nRjiZ8BzE9Qhu-131" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" value="输出: I_coarse, D_coarse" vertex="1">
+          <mxGeometry height="40" width="200" x="410" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-148" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-131" source="yfa4s89nRjiZ8BzE9Qhu-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-147" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-149" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="yfa4s89nRjiZ8BzE9Qhu-132" value="质量良好">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-150" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yfa4s89nRjiZ8BzE9Qhu-132" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3490" y="3220" />
+              <mxPoint x="3250" y="3220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1" value="人脸检测 RetinaFace" vertex="1">
+          <mxGeometry height="60" width="200" x="3160" y="3830" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-152" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-151" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-153" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1" value="检测到人脸?" vertex="1">
+          <mxGeometry height="80" width="180" x="3170" y="3930" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-154" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-153" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-155" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="yfa4s89nRjiZ8BzE9Qhu-123" value="否，重新采集">
+          <mxGeometry relative="1" x="-0.8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3000" y="3970" />
+              <mxPoint x="3000" y="2890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-156" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12" value="提取关键点和边界框" vertex="1">
+          <mxGeometry height="60" width="200" x="3160" y="4050" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-157" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=11;" target="yfa4s89nRjiZ8BzE9Qhu-156" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-158" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" value="裁剪人脸区域&#xa;I_face, D_face (256×256)&#xa;归一化关键点坐标" vertex="1">
+          <mxGeometry height="70" width="240" x="3140" y="4150" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-159" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-158" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-160" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff4e1;strokeColor=#d79b00;fontSize=13;fontStyle=1;startSize=35;" value="精矫正处理" vertex="1">
+          <mxGeometry height="760" width="1200" x="2700" y="4270" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-161" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="查询关键点深度&#xa;Z_i = D_face(u_i, v_i)&#xa;i = 1,2,3,4,5" vertex="1">
+          <mxGeometry height="70" width="180" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-162" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="计算关键点3D坐标&#xa;P_i = Z_i·K⁻¹·[u_i,v_i,1]ᵀ" vertex="1">
+          <mxGeometry height="60" width="180" x="460" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-163" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-162" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-164" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;align=left;" value="最小二乘法拟合平面&#xa;ax + by + cz + d = 0&#xa;• 计算中心点&#xa;• 构建矩阵A&#xa;• SVD分解" vertex="1">
+          <mxGeometry height="100" width="200" x="450" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-165" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-164" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-166" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10;align=left;" value="计算R_fine (Rodrigues公式)&#xa;• 旋转轴: k = z₀ × n&#xa;• 旋转角: θ = arccos(z₀·n)&#xa;• R = I + sin(θ)[k]ₓ + (1-cos(θ))[k]ₓ²" vertex="1">
+          <mxGeometry height="90" width="240" x="80" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-167" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-166" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="380" />
+              <mxPoint x="200" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-168" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="设置t_fine&#xa;t_fine = [0, 0, 1000]" vertex="1">
+          <mxGeometry height="60" width="160" x="360" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-169" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-168" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-170" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="遍历人脸区域像素&#xa;for (u, v) in I_face" vertex="1">
+          <mxGeometry height="60" width="160" x="560" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-171" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-170" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-172" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10" value="像素反投影&#xa;P_cam = Z·K⁻¹·[u,v,1]ᵀ" vertex="1">
+          <mxGeometry height="60" width="140" x="140" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-173" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10" value="应用R_fine, t_fine&#xa;P_fine = R_fine·P_world + t_fine" vertex="1">
+          <mxGeometry height="60" width="180" x="320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-174" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10" value="正向投影&#xa;[x,y,z]ᵀ = K·P_fine&#xa;u&#39;=x/z, v&#39;=y/z" vertex="1">
+          <mxGeometry height="60" width="140" x="540" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-175" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-173" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-176" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-174" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-177" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-172" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="500" />
+              <mxPoint x="210" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-178" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="构建映射场&#xa;M_fine: (u,v)→(u&#39;,v&#39;)" vertex="1">
+          <mxGeometry height="60" width="160" x="720" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-179" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-178" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-180" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="双三次插值精细重映射&#xa;I_front = bicubic_remap(I_face, M_fine)&#xa;使用4×4邻域，保留细节" vertex="1">
+          <mxGeometry height="70" width="260" x="440" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-181" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-180" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="610" />
+              <mxPoint x="570" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-182" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" value="输出: I_front" vertex="1">
+          <mxGeometry height="40" width="160" x="490" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-183" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-182" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-184" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-161" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-185" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" value="图像质量优化 (可选)" vertex="1">
+          <mxGeometry height="60" width="200" x="3160" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-186" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-185" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-187" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" value="输出标准正面人脸" vertex="1">
+          <mxGeometry height="60" width="200" x="3160" y="5170" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-188" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-187" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-189" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=13;fontStyle=1" value="人脸识别" vertex="1">
+          <mxGeometry height="60" width="200" x="3160" y="5270" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-190" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-189" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-191" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="3200" y="5370" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-192" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-191" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-193" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#0066CC;fontStyle=1" value="耗时: ~15ms" vertex="1">
+          <mxGeometry height="30" width="100" x="3600" y="3470" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-194" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#CC0000;fontStyle=1" value="耗时: ~8ms" vertex="1">
+          <mxGeometry height="30" width="100" x="3420" y="3950" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-195" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#D79B00;fontStyle=1" value="耗时: ~12ms" vertex="1">
+          <mxGeometry height="30" width="100" x="3600" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-196" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="总耗时: ~35ms (30 FPS)" vertex="1">
+          <mxGeometry height="30" width="180" x="3420" y="5300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
