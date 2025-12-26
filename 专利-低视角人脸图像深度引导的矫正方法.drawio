@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel dx="4878" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2177" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -595,30 +595,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="提供强几何约束&#xa;平面拟合精度提升" vertex="1">
-          <mxGeometry height="40" width="200" x="520" y="2410" as="geometry" />
+          <mxGeometry height="40" width="200" x="500" y="2435" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1" value="标准正面图像&#xa;仰角: &lt;5°&#xa;面部比例误差: &lt;2%&#xa;几何准确度高" vertex="1">
-          <mxGeometry height="100" width="200" x="20" y="2475" as="geometry" />
+          <mxGeometry height="100" width="200" x="-60" y="2475" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-17" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#009900;" target="yfa4s89nRjiZ8BzE9Qhu-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="面部比例恢复&#xa;误差降至 2%" vertex="1">
-          <mxGeometry height="40" width="160" x="220" y="2485" as="geometry" />
+          <mxGeometry height="40" width="160" x="195" y="2490" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=14;fontStyle=1" value="人脸识别&#xa;识别准确率: 94%+" vertex="1">
-          <mxGeometry height="70" width="160" x="-220" y="2490" as="geometry" />
+          <mxGeometry height="70" width="160" x="-300" y="2490" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-20" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=3;strokeColor=#6600CC;" target="yfa4s89nRjiZ8BzE9Qhu-19" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#6600CC;fontStyle=1" value="识别准确率&#xa;提升至 94%+" vertex="1">
-          <mxGeometry height="40" width="160" x="-60" y="2485" as="geometry" />
+          <mxGeometry height="40" width="160" x="-170" y="2490" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontStyle=1" value="协同增强效应" vertex="1">
           <mxGeometry height="60" width="200" x="20" y="2650" as="geometry" />
         </mxCell>
-        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-23" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;dashed=1;strokeColor=#FF6600;" target="yfa4s89nRjiZ8BzE9Qhu-22" value="">
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-23" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;dashed=1;strokeColor=#FF6600;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yfa4s89nRjiZ8BzE9Qhu-22" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-24" parent="1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=0" value="粗矫正创造理想检测条件 →&#xa;检测器工作在最佳状态 →&#xa;关键点精度提升 →&#xa;精矫正精度提升 →&#xa;识别性能大幅改善" vertex="1">
@@ -667,7 +667,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-39" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;startSize=30;" value="粗矫正核心流程" vertex="1">
-          <mxGeometry height="240" width="860" x="-420" y="3440" as="geometry" />
+          <mxGeometry height="240" width="860" x="-420" y="3440" as="geometry">
+            <mxRectangle height="30" width="120" x="-420" y="3440" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-40" parent="yfa4s89nRjiZ8BzE9Qhu-39" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="像素反投影&#xa;P_cam = Z·K⁻¹·p" vertex="1">
           <mxGeometry height="60" width="160" x="30" y="60" as="geometry" />
@@ -756,7 +758,7 @@
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-68" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-67" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;align=left;" value="结束：标准正面视角人脸图像 I_front&#xa;✓ 仰角 &lt; 5°&#xa;✓ 面部比例误差 &lt; 2%&#xa;✓ 识别准确率 94%+&#xa;✓ 总耗时 ~35ms (30 FPS)" vertex="1">
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;align=left;" value="" vertex="1">
           <mxGeometry height="120" width="380" x="-180" y="4480" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-70" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-69" value="">
@@ -1182,6 +1184,9 @@
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-196" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="总耗时: ~35ms (30 FPS)" vertex="1">
           <mxGeometry height="30" width="180" x="3420" y="5300" as="geometry" />
+        </mxCell>
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-197" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;结束：标准正面视角人脸图像 I_front&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 仰角 &amp;lt; 5°&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 面部比例误差 &amp;lt; 2%&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 识别准确率 94%+&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 总耗时 ~35ms (30 FPS)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="350" x="-165" y="4495" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
