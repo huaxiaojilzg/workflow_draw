@@ -1779,15 +1779,15 @@
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-55" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#FF6600;dashed=1;dashPattern=3 3;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="800" y="4160" />
-              <mxPoint x="820" y="4165" />
+              <mxPoint x="782" y="4175.5" />
+              <mxPoint x="802" y="4180.5" />
             </Array>
-            <mxPoint x="785" y="4170" as="sourcePoint" />
-            <mxPoint x="830" y="4180" as="targetPoint" />
+            <mxPoint x="767" y="4185.5" as="sourcePoint" />
+            <mxPoint x="812" y="4195.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-56" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF6600;fontStyle=1" value="旋转对齐" vertex="1">
-          <mxGeometry height="15" width="50" x="795" y="4145" as="geometry" />
+          <mxGeometry height="15" width="50" x="777" y="4160.5" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-57" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="Rodrigues旋转公式：R_fine = I + sin(θ)·[k̂]_× + (1-cos(θ))·[k̂]_×²" vertex="1">
           <mxGeometry height="20" width="550" x="890" y="4160" as="geometry" />
