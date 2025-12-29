@@ -1266,7 +1266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tnYzq3PoD-M2kOWDfbX_" name="附图">
-    <mxGraphModel dx="1408" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="758" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1771,7 +1771,7 @@
           <mxGeometry height="25" width="30" x="730" y="4165" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCFFCC;strokeColor=#00AA00;strokeWidth=1;" value="" vertex="1">
-          <mxGeometry height="16" width="16" x="737" y="4172" as="geometry" />
+          <mxGeometry height="16" width="16" x="737" y="4170" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-54" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1" value="虚拟相机" vertex="1">
           <mxGeometry height="15" width="60" x="715" y="4195" as="geometry" />
@@ -1802,7 +1802,7 @@
           <mxGeometry height="20" width="650" x="890" y="4235" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-61" parent="1" style="text;html=1;strokeColor=none;fillColor=#E8F5E9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1" value="输出：精细旋转矩阵 R_fine (3×3)，平移向量 t_fine (3×1)" vertex="1">
-          <mxGeometry height="20" width="550" x="690" y="4250" as="geometry" />
+          <mxGeometry height="20" width="550" x="690" y="4254" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -1820,46 +1820,46 @@
           <mxGeometry height="20" width="450" x="690" y="4360" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="100" width="80" x="720" y="4390" as="geometry" />
+          <mxGeometry height="100" width="80" x="720" y="4386" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-67" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;strokeColor=#9E9E9E;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="735" y="4395" as="sourcePoint" />
-            <mxPoint x="735" y="4485" as="targetPoint" />
+            <mxPoint x="735" y="4391" as="sourcePoint" />
+            <mxPoint x="735" y="4481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-68" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;strokeColor=#9E9E9E;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="760" y="4395" as="sourcePoint" />
-            <mxPoint x="760" y="4485" as="targetPoint" />
+            <mxPoint x="760" y="4391" as="sourcePoint" />
+            <mxPoint x="760" y="4481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-69" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;strokeColor=#9E9E9E;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="785" y="4395" as="sourcePoint" />
-            <mxPoint x="785" y="4485" as="targetPoint" />
+            <mxPoint x="785" y="4391" as="sourcePoint" />
+            <mxPoint x="785" y="4481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-70" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;strokeColor=#9E9E9E;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="725" y="4410" as="sourcePoint" />
-            <mxPoint x="795" y="4410" as="targetPoint" />
+            <mxPoint x="725" y="4406" as="sourcePoint" />
+            <mxPoint x="795" y="4406" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-71" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;strokeColor=#9E9E9E;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="725" y="4440" as="sourcePoint" />
-            <mxPoint x="795" y="4440" as="targetPoint" />
+            <mxPoint x="725" y="4436" as="sourcePoint" />
+            <mxPoint x="795" y="4436" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-72" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=1;strokeColor=#9E9E9E;dashed=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="725" y="4470" as="sourcePoint" />
-            <mxPoint x="795" y="4470" as="targetPoint" />
+            <mxPoint x="725" y="4466" as="sourcePoint" />
+            <mxPoint x="795" y="4466" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-73" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#666666;" value="映射网格" vertex="1">
-          <mxGeometry height="15" width="60" x="730" y="4485" as="geometry" />
+          <mxGeometry height="15" width="60" x="729" y="4487" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-74" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="① 像素反投影：P_cam = Z · K^(-1) · [u, v, 1]^T" vertex="1">
           <mxGeometry height="20" width="450" x="840" y="4395" as="geometry" />
@@ -1874,7 +1874,7 @@
           <mxGeometry height="20" width="350" x="840" y="4470" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-78" parent="1" style="text;html=1;strokeColor=none;fillColor=#E8F5E9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1" value="输出：精细几何变换映射场 M_fine(u,v)→(u&#39;,v&#39;)" vertex="1">
-          <mxGeometry height="20" width="550" x="840" y="4485" as="geometry" />
+          <mxGeometry height="20" width="550" x="840" y="4489" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -1952,7 +1952,7 @@
           <mxGeometry height="20" width="450" x="930" y="4705" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-97" parent="1" style="text;html=1;strokeColor=none;fillColor=#E8F5E9;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1" value="输出：标准正面视角人脸图像 I_front (256×256)" vertex="1">
-          <mxGeometry height="20" width="500" x="930" y="4730" as="geometry" />
+          <mxGeometry height="20" width="500" x="930" y="4732" as="geometry" />
         </mxCell>
         <mxCell id="SQG4Q0vl9o-Pgx8J15ys-98" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#000000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
