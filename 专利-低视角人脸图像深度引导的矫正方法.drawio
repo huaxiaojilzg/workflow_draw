@@ -1266,7 +1266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tnYzq3PoD-M2kOWDfbX_" name="附图">
-    <mxGraphModel dx="2687" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1572,13 +1572,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-92" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff4e1;strokeColor=#d79b00;fontSize=13;fontStyle=1;startSize=35;" value="精矫正处理" vertex="1">
-          <mxGeometry height="1685" width="1200" x="1870" y="2105" as="geometry" />
+          <mxGeometry height="1560" width="540" x="2230" y="1860" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-93" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;strokeWidth=1;" value="查询关键点深度&#xa;Z_i = D_face(u_i, v_i)&#xa;i = 1,2,3,4,5" vertex="1">
-          <mxGeometry height="70" width="180" x="469" y="60" as="geometry" />
+          <mxGeometry height="70" width="180" x="180" y="70" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-94" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;strokeWidth=1;" value="计算关键点3D坐标&#xa;P_i = Z_i·K⁻¹·[u_i,v_i,1]ᵀ" vertex="1">
-          <mxGeometry height="60" width="180" x="469" y="160" as="geometry" />
+          <mxGeometry height="60" width="180" x="180" y="201" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-95" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-94" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1587,16 +1587,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-97" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;align=center;strokeWidth=1;" value="最小二乘法拟合平面&lt;br&gt;ax + by + cz + d = 0&lt;br&gt;• 计算中心点&lt;br&gt;• 构建矩阵A&lt;br&gt;• SVD分解" vertex="1">
-          <mxGeometry height="100" width="200" x="459" y="250" as="geometry" />
+          <mxGeometry height="100" width="200" x="170" y="307" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-98" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-97" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-99" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10;align=center;strokeWidth=1;" value="计算R_fine (Rodrigues公式)&lt;br&gt;• 旋转轴: k = z₀ × n&lt;br&gt;• 旋转角: θ = arccos(z₀·n)&lt;br&gt;• R = I + sin(θ)[k]ₓ + (1-cos(θ))[k]ₓ²" vertex="1">
-          <mxGeometry height="90" width="240" x="230" y="390" as="geometry" />
+          <mxGeometry height="90" width="240" x="150" y="438" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-100" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;strokeWidth=1;" value="设置t_fine&#xa;t_fine = [0, 0, 1000]" vertex="1">
-          <mxGeometry height="60" width="160" x="510" y="405" as="geometry" />
+          <mxGeometry height="60" width="160" x="190" y="579" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-101" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-100" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1605,19 +1605,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-103" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;strokeWidth=1;" value="遍历人脸区域像素&#xa;for (u, v) in I_face" vertex="1">
-          <mxGeometry height="60" width="160" x="710" y="405" as="geometry" />
+          <mxGeometry height="60" width="160" x="190" y="705" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-104" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-103" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-105" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10;strokeWidth=1;" value="像素反投影&#xa;P_cam = Z·K⁻¹·[u,v,1]ᵀ" vertex="1">
-          <mxGeometry height="60" width="140" x="140" y="520" as="geometry" />
+          <mxGeometry height="60" width="140" x="200" y="830" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-106" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10;strokeWidth=1;" value="应用R_fine, t_fine&#xa;P_fine = R_fine·P_world + t_fine" vertex="1">
-          <mxGeometry height="60" width="180" x="320" y="520" as="geometry" />
+          <mxGeometry height="60" width="180" x="180" y="956" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-107" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=10;strokeWidth=1;" value="正向投影&#xa;[x,y,z]ᵀ = K·P_fine&#xa;u&#39;=x/z, v&#39;=y/z" vertex="1">
-          <mxGeometry height="60" width="140" x="540" y="520" as="geometry" />
+          <mxGeometry height="60" width="140" x="200" y="1082" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-108" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-106" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1625,25 +1625,20 @@
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-109" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-107" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SQG4Q0vl9o-Pgx8J15ys-3" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4NtJaUQDN_Nz3gZ-tni5-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-110" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;strokeWidth=1;" value="构建映射场&#xa;M_fine: (u,v)→(u&#39;,v&#39;)" vertex="1">
-          <mxGeometry height="60" width="160" x="720" y="520" as="geometry" />
+          <mxGeometry height="60" width="160" x="190" y="1208" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-111" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-110" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-112" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;strokeWidth=1;" value="双三次插值精细重映射&#xa;I_front = bicubic_remap(I_face, M_fine)&#xa;使用4×4邻域，保留细节" vertex="1">
-          <mxGeometry height="70" width="260" x="440" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="4NtJaUQDN_Nz3gZ-tni5-113" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-112" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="800" y="600" />
-              <mxPoint x="570" y="600" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry height="70" width="260" x="140" y="1329" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-114" parent="4NtJaUQDN_Nz3gZ-tni5-92" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;strokeWidth=1;" value="输出: I_front" vertex="1">
-          <mxGeometry height="40" width="160" x="490" y="710" as="geometry" />
+          <mxGeometry height="40" width="160" x="190" y="1470" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-115" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-92" source="4NtJaUQDN_Nz3gZ-tni5-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="4NtJaUQDN_Nz3gZ-tni5-114" value="">
           <mxGeometry relative="1" as="geometry" />
