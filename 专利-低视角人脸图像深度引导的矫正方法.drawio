@@ -1265,7 +1265,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tnYzq3PoD-M2kOWDfbX_" name="第 2 页">
+  <diagram id="tnYzq3PoD-M2kOWDfbX_" name="附图">
     <mxGraphModel dx="1235" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1516,57 +1516,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-74" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1f5ff;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;startSize=35;" value="粗矫正处理" vertex="1">
-          <mxGeometry height="1090" width="1120" x="1950" y="710" as="geometry" />
+          <mxGeometry height="1090" width="540" x="2230" y="710" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-75" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="设置虚拟相机参数&#xa;R_coarse = I&#xa;t_coarse = [0, 0, 1500]" vertex="1">
-          <mxGeometry height="70" width="180" x="470" y="70" as="geometry" />
+          <mxGeometry height="70" width="180" x="180" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQG4Q0vl9o-Pgx8J15ys-2" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4NtJaUQDN_Nz3gZ-tni5-78">
+        <mxCell id="SQG4Q0vl9o-Pgx8J15ys-2" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-76" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="遍历全图像素&#xa;for (u, v) in image" vertex="1">
-          <mxGeometry height="60" width="140" x="490" y="192" as="geometry" />
+          <mxGeometry height="60" width="140" x="200" y="182" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-77" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-76" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-78" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="像素反投影&#xa;Z = D(u,v)&#xa;P_cam = Z·K⁻¹·[u,v,1]ᵀ" vertex="1">
-          <mxGeometry height="70" width="160" x="480" y="304" as="geometry" />
+          <mxGeometry height="70" width="160" x="190" y="294" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-79" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="转换至世界坐标&#xa;P_world = Rᵀ·P_cam - Rᵀ·t" vertex="1">
-          <mxGeometry height="70" width="180" x="470" y="421" as="geometry" />
+          <mxGeometry height="70" width="180" x="180" y="411" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-80" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="转换至虚拟相机&#xa;P_coarse = P_world + t_coarse" vertex="1">
-          <mxGeometry height="70" width="180" x="470" y="538" as="geometry" />
+          <mxGeometry height="70" width="180" x="180" y="528" as="geometry" />
         </mxCell>
-        <mxCell id="SQG4Q0vl9o-Pgx8J15ys-1" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4NtJaUQDN_Nz3gZ-tni5-86">
+        <mxCell id="SQG4Q0vl9o-Pgx8J15ys-1" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-81" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=10" value="正向投影&#xa;[x,y,z]ᵀ = K·P_coarse&#xa;u_c=x/z, v_c=y/z" vertex="1">
-          <mxGeometry height="70" width="160" x="480" y="654" as="geometry" />
+          <mxGeometry height="70" width="160" x="190" y="644" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-82" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-79" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-83" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4NtJaUQDN_Nz3gZ-tni5-80" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="619.9999999999991" y="500" as="sourcePoint" />
+            <mxPoint x="329.9999999999991" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-84" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-81" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-86" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="构建映射场&#xa;M_coarse: (u,v)→(u_c,v_c)" vertex="1">
-          <mxGeometry height="60" width="180" x="470" y="776" as="geometry" />
+          <mxGeometry height="60" width="180" x="180" y="766" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-88" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;fontSize=11" value="双线性插值重映射&#xa;I_coarse = remap(I_low, M_coarse)&#xa;D_coarse = remap(D, M_coarse)" vertex="1">
-          <mxGeometry height="70" width="240" x="440" y="888" as="geometry" />
+          <mxGeometry height="70" width="240" x="150" y="878" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-89" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-88" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-90" parent="4NtJaUQDN_Nz3gZ-tni5-74" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1" value="输出: I_coarse, D_coarse" vertex="1">
-          <mxGeometry height="40" width="200" x="460" y="1020" as="geometry" />
+          <mxGeometry height="40" width="200" x="170" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="4NtJaUQDN_Nz3gZ-tni5-91" edge="1" parent="4NtJaUQDN_Nz3gZ-tni5-74" source="4NtJaUQDN_Nz3gZ-tni5-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="4NtJaUQDN_Nz3gZ-tni5-90" value="">
           <mxGeometry relative="1" as="geometry" />
