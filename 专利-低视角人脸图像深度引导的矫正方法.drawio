@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="ghCLT-PU3wJ5uw2X0gSE">
-    <mxGraphModel dx="2245" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2498" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1055,7 +1055,7 @@
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-163" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-162" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-207" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yfa4s89nRjiZ8BzE9Qhu-166">
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-207" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-166">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-164" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11;align=center;" value="最小二乘法拟合平面&lt;br&gt;ax + by + cz + d = 0&lt;br&gt;• 计算中心点&lt;br&gt;• 构建矩阵A&lt;br&gt;• SVD分解" vertex="1">
@@ -1073,7 +1073,7 @@
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-169" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-168" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-206" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yfa4s89nRjiZ8BzE9Qhu-172">
+        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-206" edge="1" parent="yfa4s89nRjiZ8BzE9Qhu-160" source="yfa4s89nRjiZ8BzE9Qhu-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-170" parent="yfa4s89nRjiZ8BzE9Qhu-160" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=11" value="遍历人脸区域像素&#xa;for (u, v) in I_face" vertex="1">
@@ -1146,12 +1146,6 @@
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-192" edge="1" parent="1" source="yfa4s89nRjiZ8BzE9Qhu-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="yfa4s89nRjiZ8BzE9Qhu-191" value="">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-195" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#D79B00;fontStyle=1" value="耗时: ~12ms" vertex="1">
-          <mxGeometry height="30" width="100" x="3600" y="4670" as="geometry" />
-        </mxCell>
-        <mxCell id="yfa4s89nRjiZ8BzE9Qhu-196" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#009900;fontStyle=1" value="总耗时: ~35ms (30 FPS)" vertex="1">
-          <mxGeometry height="30" width="180" x="3420" y="5300" as="geometry" />
         </mxCell>
         <mxCell id="yfa4s89nRjiZ8BzE9Qhu-197" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;结束：标准正面视角人脸图像 I_front&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 仰角 &amp;lt; 5°&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 面部比例误差 &amp;lt; 2%&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 识别准确率 94%+&lt;/span&gt;&lt;br style=&quot;font-weight: 700; text-align: left;&quot;&gt;&lt;span style=&quot;font-weight: 700; text-align: left;&quot;&gt;✓ 总耗时 ~35ms (30 FPS)&lt;/span&gt;" vertex="1">
           <mxGeometry height="90" width="350" x="-165" y="4495" as="geometry" />
