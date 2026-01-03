@@ -1266,7 +1266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tnYzq3PoD-M2kOWDfbX_" name="附图">
-    <mxGraphModel dx="2600" dy="2133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2558,29 +2558,29 @@
             <mxRectangle height="40" width="240" x="20" y="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sSCVoW71ja5dI40G7yMy-3" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=18;flipV=1;" value="&lt;font&gt;Query Input&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="290" x="25" y="60" as="geometry" />
+        <mxCell id="sSCVoW71ja5dI40G7yMy-3" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=19;flipV=1;" value="&lt;font&gt;Query Input&lt;/font&gt;" vertex="1">
+          <mxGeometry height="59" width="290" x="25" y="60" as="geometry" />
         </mxCell>
         <mxCell id="sSCVoW71ja5dI40G7yMy-4" parent="sSCVoW71ja5dI40G7yMy-3" style="shape=image;html=1;image=https://cdn-icons-png.flaticon.com/512/1055/1055644.png;aspect=fixed;fontSize=18;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="55" y="10" as="geometry" />
+          <mxGeometry height="30" width="30" x="55" y="11.799999999999997" as="geometry" />
         </mxCell>
-        <mxCell id="sSCVoW71ja5dI40G7yMy-5" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=18;flipV=1;" value="Query Encoding" vertex="1">
-          <mxGeometry height="50" width="290" x="25" y="168" as="geometry" />
+        <mxCell id="sSCVoW71ja5dI40G7yMy-5" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=19;flipV=1;" value="Query Encoding" vertex="1">
+          <mxGeometry height="59" width="290" x="25" y="175" as="geometry" />
         </mxCell>
-        <mxCell id="sSCVoW71ja5dI40G7yMy-6" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=18;flipV=1;" value="Knowledge Graph Expansion" vertex="1">
-          <mxGeometry height="50" width="290" x="25" y="276" as="geometry" />
+        <mxCell id="sSCVoW71ja5dI40G7yMy-6" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=19;flipV=1;" value="Knowledge Graph Expansion" vertex="1">
+          <mxGeometry height="59" width="290" x="25" y="289" as="geometry" />
         </mxCell>
-        <mxCell id="sSCVoW71ja5dI40G7yMy-7" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=18;flipV=1;" value="Multi-modal Fusion" vertex="1">
-          <mxGeometry height="50" width="290" x="25" y="384" as="geometry" />
+        <mxCell id="sSCVoW71ja5dI40G7yMy-7" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=19;flipV=1;" value="Multi-modal Fusion" vertex="1">
+          <mxGeometry height="59" width="290" x="25" y="404" as="geometry" />
         </mxCell>
-        <mxCell id="sSCVoW71ja5dI40G7yMy-8" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=18;flipV=1;" value="Candidate Re-ranking" vertex="1">
-          <mxGeometry height="50" width="290" x="25" y="492" as="geometry" />
+        <mxCell id="sSCVoW71ja5dI40G7yMy-8" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=19;flipV=1;" value="Candidate Re-ranking" vertex="1">
+          <mxGeometry height="59" width="290" x="25" y="519" as="geometry" />
         </mxCell>
-        <mxCell id="sSCVoW71ja5dI40G7yMy-9" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=18;flipV=1;" value="Top-K Retrieval Results" vertex="1">
-          <mxGeometry height="50" width="290" x="25" y="600" as="geometry" />
+        <mxCell id="sSCVoW71ja5dI40G7yMy-9" parent="sSCVoW71ja5dI40G7yMy-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D8E8;strokeColor=#4E607D;strokeWidth=2;fontSize=19;flipV=1;" value="Top-K Retrieval Results" vertex="1">
+          <mxGeometry height="62" width="290" x="25" y="632" as="geometry" />
         </mxCell>
         <mxCell id="sSCVoW71ja5dI40G7yMy-10" parent="sSCVoW71ja5dI40G7yMy-9" style="shape=image;html=1;image=https://cdn-icons-png.flaticon.com/512/3342/3342137.png;aspect=fixed;fontSize=18;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="10" y="10" as="geometry" />
+          <mxGeometry height="30" width="30" x="10" y="14.799999999999997" as="geometry" />
         </mxCell>
         <mxCell id="sSCVoW71ja5dI40G7yMy-11" edge="1" parent="sSCVoW71ja5dI40G7yMy-2" source="sSCVoW71ja5dI40G7yMy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=7;strokeColor=#4E607D;endArrow=block;endFill=1;fontSize=18;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" target="sSCVoW71ja5dI40G7yMy-5">
           <mxGeometry relative="1" as="geometry" />
