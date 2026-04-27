@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36">
+  <diagram name="人脸检测准确率对比图" id="detection-accuracy">
+    <mxGraphModel dx="1464" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-3" edge="1" parent="1" source="X1zMlJko7vAGlQ_RVkb2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="X1zMlJko7vAGlQ_RVkb2-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-7" edge="1" parent="1" source="X1zMlJko7vAGlQ_RVkb2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="X1zMlJko7vAGlQ_RVkb2-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-13" connectable="0" parent="X1zMlJko7vAGlQ_RVkb2-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="开始=1" vertex="1">
+          <mxGeometry relative="1" x="-0.4105" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-9" edge="1" parent="1" source="X1zMlJko7vAGlQ_RVkb2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="X1zMlJko7vAGlQ_RVkb2-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-14" connectable="0" parent="X1zMlJko7vAGlQ_RVkb2-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否则" vertex="1">
+          <mxGeometry relative="1" x="0.2756" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="分支" vertex="1">
+          <mxGeometry height="80" width="190" x="390" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-10" edge="1" parent="1" source="X1zMlJko7vAGlQ_RVkb2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="X1zMlJko7vAGlQ_RVkb2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-17" connectable="0" parent="X1zMlJko7vAGlQ_RVkb2-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="输出 output=你好" vertex="1">
+          <mxGeometry relative="1" x="-0.8434" y="1" as="geometry">
+            <mxPoint x="22" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="变量聚合1" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-11" edge="1" parent="1" source="X1zMlJko7vAGlQ_RVkb2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="X1zMlJko7vAGlQ_RVkb2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-16" connectable="0" parent="X1zMlJko7vAGlQ_RVkb2-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="输出 output=再见" vertex="1">
+          <mxGeometry relative="1" x="-0.8248" as="geometry">
+            <mxPoint x="9" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="变量聚合2" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="514" as="geometry" />
+        </mxCell>
+        <mxCell id="X1zMlJko7vAGlQ_RVkb2-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="结束节点引用了变量聚合1的output，变量聚合2的output&lt;br&gt;&lt;br&gt;这个工作流的逻辑是，判断开始是否为1，为1输出你好，否则输出再见" vertex="1">
+          <mxGeometry height="100" width="190" x="890" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
