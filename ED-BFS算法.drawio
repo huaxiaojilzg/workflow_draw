@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="9zeFtvbFsk4h5sflBKEF">
-    <mxGraphModel dx="2309" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2492" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -778,6 +778,49 @@
         </mxCell>
         <mxCell id="NFHMkgC93hRztnbabfmk-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="优先执行节点&lt;div&gt;（关键路径）&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1580" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-4" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ThhUyIqIBTpFBnPP-pn8-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="分支执行完成" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="4092" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="未选中分支的依赖消解" vertex="1">
+          <mxGeometry height="30" width="224" x="-72" y="3980" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-6" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ThhUyIqIBTpFBnPP-pn8-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取分支句柄与选中后继集合" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="4232" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-8" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ThhUyIqIBTpFBnPP-pn8-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历未选中句柄对应目标节点" vertex="1">
+          <mxGeometry height="60" width="120" x="-20" y="4372" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-9" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ThhUyIqIBTpFBnPP-pn8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-10" connectable="0" parent="ThhUyIqIBTpFBnPP-pn8-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.5893" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-12" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ThhUyIqIBTpFBnPP-pn8-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-13" connectable="0" parent="ThhUyIqIBTpFBnPP-pn8-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0605" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="目标节点是否在选中集合" vertex="1">
+          <mxGeometry height="108" width="300" x="-110" y="4502" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="目标节点是否为多前驱节点" vertex="1">
+          <mxGeometry height="108" width="300" x="-110" y="4690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
