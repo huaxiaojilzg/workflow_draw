@@ -1040,8 +1040,18 @@
         <mxCell id="ThhUyIqIBTpFBnPP-pn8-103" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ThhUyIqIBTpFBnPP-pn8-102">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-115" connectable="0" parent="ThhUyIqIBTpFBnPP-pn8-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="A" vertex="1">
+          <mxGeometry relative="1" x="0.1846" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ThhUyIqIBTpFBnPP-pn8-105" edge="1" parent="1" source="ThhUyIqIBTpFBnPP-pn8-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ThhUyIqIBTpFBnPP-pn8-104">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThhUyIqIBTpFBnPP-pn8-116" connectable="0" parent="ThhUyIqIBTpFBnPP-pn8-105" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="B" vertex="1">
+          <mxGeometry relative="1" x="0.0264" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ThhUyIqIBTpFBnPP-pn8-100" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="分支" vertex="1">
           <mxGeometry height="80" width="140" x="-554" y="5640" as="geometry" />
